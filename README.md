@@ -1,29 +1,41 @@
-# Welcome to your Lovable project
+# SS Intermediações
 
-This project was built with [Lovable](https://lovable.dev).
+Site institucional da SS Intermediações, preparado para apresentação ao cliente e publicação pelo GitHub Pages.
 
-## Build with Lovable
+## Ver o site pelo GitHub Pages
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Este repositório inclui uma versão estática em `docs/index.html`.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+Para publicar pelo GitHub:
 
-## Development
+1. Acesse **Settings > Pages** no repositório.
+2. Em **Build and deployment**, escolha **Deploy from a branch**.
+3. Selecione a branch **main** e a pasta **/docs**.
+4. Salve e aguarde o GitHub gerar a página.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+URL esperada após a publicação:
+
+https://jessicagouveah.github.io/SSintermediacoes/
+
+## Rodar pelo Lovable/localmente
+
+O projeto também tem estrutura `src/` em TanStack Start para continuar editável pelo Lovable.
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
 npm i
 npm run dev
 ```
 
-## Built with
+Build:
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+```sh
+npm run build
+```
+
+## Arquivos principais
+
+- `docs/index.html` - versão estática para GitHub Pages.
+- `docs/.nojekyll` - evita processamento do Jekyll no GitHub Pages.
+- `src/routes/index.tsx` - página principal do app TanStack Start.
+- `src/routes/__root.tsx` - estrutura raiz, metadados e carregamento de estilos.
+- `src/styles.css` - tema visual do app.
