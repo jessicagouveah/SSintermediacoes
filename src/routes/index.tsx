@@ -75,7 +75,7 @@ function HomePage() {
               </a>
             </div>
             <div className="proof" aria-label="Informações da empresa">
-              <Proof title="CNPJ ativo" text="65.459.293/0001-15" />
+              <Proof title="CNPJ ativo" text="63.923.149/0001-62" />
               <Proof title="Atendimento" text="Consultivo e documentado" />
               <Proof title="Foco" text="PF, PJ e negócios em expansão" />
             </div>
@@ -101,7 +101,7 @@ function HomePage() {
               </ul>
               <div className="cnpj-box">
                 <span>Identificação</span>
-                <strong>CNPJ nº 65.459.293/0001-15</strong>
+                <strong>SS INTERMEDIAÇÕES LTDA. - CNPJ 63.923.149/0001-62</strong>
               </div>
             </div>
           </aside>
@@ -191,7 +191,7 @@ function HomePage() {
 
       <footer className="site-footer">
         <div className="site-container">
-          <span>SS Intermediações - CNPJ nº 65.459.293/0001-15.</span>
+          <span>SS Intermediações - SS INTERMEDIAÇÕES LTDA. - CNPJ 63.923.149/0001-62.</span>
           <br />
           <span>
             <Building2 size={16} style={{ verticalAlign: "text-bottom" }} /> Intermediação
